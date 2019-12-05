@@ -19,7 +19,7 @@ docker run hello-world
 ```
 3. Pull this repository to one of your computer folder : 
 ```
-git pull https://github.com/cyriltso/docker_jupyter.git
+git clone https://github.com/cyriltso/docker_jupyter.git
 ```
 4. Then, go to the folder that contains the Dockerfile and the requirements.txt file :
 ```
