@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y python3 \
 
 # Install Jupyter Notebook and Python dependancies along with
 # Available in requirements.txt
+COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Start the jupyter notebook
