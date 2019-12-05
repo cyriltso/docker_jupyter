@@ -42,7 +42,7 @@ If jupyter-notebook is among your images, it means that it has been successfully
 3. By default, when you stop your container all the data stored inside are removed, so you will have to create a volume in order 
 make your data persists in your container. In Docker, you can do this through the usage of volumes, you can create one by typing :
 ```
-docker volume create jupyter_store
+docker volume create jupyter-volume
 ```
 jupyter-store is the name of the volume that will have all my data stored in.
 
