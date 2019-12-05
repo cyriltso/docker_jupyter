@@ -31,7 +31,7 @@ cd /folder_with_Dockerfile_and_requirements
 Once the preliminary steps done, you have to type the following commands :
 1. Build the Jupyter Notebook image through the Dockerfile :
 ```
-docker build image -t jupyter-notebook .
+docker build -t jupyter-notebook .
 ```
 2. Check if your images has been correctly created :
 ```
