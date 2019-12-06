@@ -29,17 +29,17 @@ cd /folder_with_Dockerfile_and_requirements
 ### Usage of Docker
 
 Once the preliminary steps done, you have to type the following commands :
-1. Build the Jupyter Notebook image through the Dockerfile :
+1. Build the Jupyter Notebook image through the Dockerfile (here the tag of the image will be called jupyter-notebook) :
 ```
 docker build -t jupyter-notebook .
 ```
-2. Check if your images has been correctly created :
+2. Check if your image has been correctly created :
 ```
 docker images
 ```
 If jupyter-notebook is among your images, it means that it has been successfully created.
 
-3. By default, when you stop your container all the data stored inside are removed, so you will have to create a volume in order 
+3. By default, when you stop your container all the data stored inside are removed, so you will have to create a volume in order to
 make your data persists in your container. In Docker, you can do this through the usage of volumes, you can create one by typing :
 ```
 docker volume create jupyter-volume
